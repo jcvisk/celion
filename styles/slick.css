@@ -1,0 +1,19 @@
+.slick-dots{
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.slick-dots li{
+    display: inline; /* Display list items in a row */
+    margin-right: 10px;
+    
+    font-size: 0;
+}
+.slick-dots li button{
+    
+    border: none ;
+    padding: 5px;
+    border-radius: 50%;
+    background: rgb(145, 130, 130);
+}

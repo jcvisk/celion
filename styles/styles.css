@@ -1,0 +1,718 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../assets/fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+:root {
+    --primary--color: #ff5704;
+    --secundary--color: #ffda9d59;
+    --background--color: #ffffff;
+    --primary--text--color: #484848;
+    --secundary--text--color: #ffffff;
+    --primary--font: "Montserrat", sans-serif;
+    --border--subrayado: linear-gradient(89.93deg, #FF5704 0.02%, rgba(255, 87, 4, 0) 13.51%, #FF5704 25.5%, rgba(255, 87, 4, 0) 36.99%, #FF5704 51.48%, rgba(255, 87, 4, 0) 63.97%, #FF5704 74.46%, rgba(255, 87, 4, 0) 83.95%, #FF5704 94.45%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary--font);
+    box-sizing: border-box; 
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+    padding-right: 6% !important;
+    padding-left: 6% !important;
+}
+
+
+body {
+    overflow-x: hidden; 
+    background-color: var(--background--color)  
+}
+
+/*========== GENERALES ===========*/
+.h1{
+    font-family: 'Montserrat-Bold';
+    font-size: clamp(4.5rem, 7vw, 12rem);
+    font-weight: bold;
+}
+
+.h2{
+    font-family: 'Montserrat-Bold';
+    font-size: clamp(3.5rem, 4.5vw, 8rem);
+    font-weight: bold;
+}
+.h3{font-family: 'Montserrat-Bold';
+    font-size: clamp(2.5rem, 3vw, 6rem);
+    font-weight: bold;
+}
+
+.h4{
+    font-family: 'Montserrat-Bold';
+    font-size: clamp(1.2rem, 1.8vw, 1.9rem);
+   font-weight: bold;
+}
+.h5{
+    font-family: 'Montserrat-Bold';
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-weight: bold;
+}
+
+
+.bold{
+    font-family:'Montserrat-Bold';
+}
+
+.border-subrayado{
+    border: 2px solid;
+    border-image-source: var(--border--subrayado);
+    border-image-slice: 1;
+}
+.border-naranja {
+    border: 2px solid var(--primary--color); 
+}
+
+.color-primary{
+    color: var(--primary--color);
+}
+.py-10{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.navboton-secundary {
+    background: var(--secundary--color);
+    color: var(--primary--color);
+    border-radius: 15px;
+    border: solid 1px var(--primary--color);
+    white-space: nowrap;/* Ajusta el padding para reducir el borde */
+    width: 150px; 
+}
+.navboton-secundary:hover {
+    background: var(--primary--color);
+    color: var(--secundary--text--color);
+}
+.navboton-primary{
+    background: var(--primary--color);
+    color: var(--secundary--text--color);
+    border-radius: 15px;
+    width: 150px; 
+    
+}
+.navboton-primary:hover{
+    background: var(--secundary--color);
+    color: var(--secundary--text--color);
+    border: solid 1px var(--primary--color);
+    color: var(--primary--color);
+}
+
+.btn{
+    border-radius: 25px;
+}
+
+.btn-transparent{
+    background: #D4D4D429;
+    border: solid 2px var(--background--color);
+}
+
+.btn-transparent:hover{
+    background: transparent;
+    border: solid 2px var(--background--color);
+}
+
+/*========== GENERALES ===========*/
+
+/*========== NAVBAR ===========*/
+
+.navbar-nav {
+    white-space: nowrap;
+}
+
+.navbar-brand span:hover {
+    color: inherit; /* Keeps the original color */
+}
+
+
+.navbar {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navbar-collapse {
+    padding-left: 10px;
+    font-size: 11.97px;
+}
+
+.navbar .menu {
+    margin-left: 50px;
+    margin-right: 15px;
+}
+
+.botoncirculo {
+    width: 30px;            
+    height: 30px;           
+    display: flex;           
+    justify-content: center;
+    align-items: center;     
+    border-radius: 50%;     
+    border: solid 1px var(--primary--color); 
+}
+#navbarNav .nav-link:hover {
+    color: var(--primary--color); /* Cambia el color al hacer hover */
+  }
+  
+
+/*========== NAVBAR ===========*/
+
+
+.bg-image {
+    background-image: url(/images/backgrounds/background-min.png);
+    background-size: cover; 
+    background-position: center; 
+    height: 600px; 
+    width: 100%; 
+}
+
+.titulo1 h1{
+    line-height: 1;
+    letter-spacing: 12px;
+    padding-top: 5rem;
+}
+.titulo1 p{
+    line-height: 1;
+}
+
+
+
+/*========== LONGRVIDADE =================================*/
+#longevidad .container-fluid {
+    padding-left: 7% !important;
+    padding-right: 0 !important;
+    background-color: #F2F2F2;
+}
+#longevidad img{
+    object-fit: cover;
+    border-radius: 16px 0 0 16px;
+}
+#longevidad span{
+    color: var(--primary--color);
+    font-family: 'Montserrat-Bold';
+   
+}
+
+
+
+/* =============ESTABLECIDO=============== */
+.tabla {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 7rem; 
+    padding-top: 4rem;
+  
+  }
+  
+  .item {
+    display: flex; 
+    align-items: center; 
+    margin-right: 20px; 
+  }
+  
+  .circle {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    color: var(--secundary--text--color); 
+    margin-right: 10px; 
+    font-weight: bold; 
+    background: linear-gradient(78.39deg, rgba(255, 87, 4, 0.1776) -137.62%, rgba(255, 64, 4, 0.74) 91.5%);
+
+  }
+  
+  .separator {
+    width: 2px; 
+    background-color: #B1B1B1; 
+    height: 30px; 
+    margin-left: 10px; 
+  }
+  
+  .item p {
+    margin: 0; 
+    display: flex; 
+    align-items: center; 
+  }
+
+.parte3 h4{
+    color: #494949;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Bold';
+    
+}
+.parte3 p{
+   
+    color: #616161;
+    font-size: 22px;
+}
+.accordion-button {
+    background-color: transparent; /* Cambia el color de fondo a transparente */
+    box-shadow: none; /* Elimina cualquier sombra del botón */
+}
+
+.accordion-button:focus {
+    box-shadow: none; /* Elimina el sombreado al hacer clic */
+    outline: none;
+    outline: none; /* Elimina el borde de enfoque por defecto */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+}
+
+.accordion-button:hover {
+    background-color: transparent; /* Elimina el efecto de hover */
+    box-shadow: none; /* Elimina cualquier sombra que se aplique en hover */
+}
+
+.accordion-button::after {
+    display: none; /* Oculta la flecha */
+}
+
+#establecido img {
+    max-width: 100%; /* Se asegura de que la imagen no sea más grande que su contenedor */
+    height: auto;    /* Mantiene la proporción de la imagen */
+    object-fit: contain; /* Evita que la imagen se distorsione */
+    
+}
+
+
+/* =============ESTABLECIDO=============== */
+/*========== BEYOND BETTER =================================*/
+
+.bg-primary-gradient    {
+    background: linear-gradient(to top, #FF5704BD 12.58%, #FF570420 74%);   
+}
+.bg-secundary-gradient{
+    background: linear-gradient(to bottom,#CAF2FF48 28.12%, #00C2FFBD 74%);
+    color: #0095C5;
+}
+.bg-gradient-rojo{
+    background:     linear-gradient(to bottom, #FF9C6B59 34.74%, #EB010FBD 74%);  
+    color: #E92736;
+}
+
+
+#beyond .card{
+    border-radius: 1rem;
+    -webkit-box-shadow: 10px 10px 19px -6px #c2bac2;
+    -moz-box-shadow: 10px 10px 19px -6px #c2bac2;
+    box-shadow: 10px 10px 19px -6px #c2bac2;
+    
+}
+#beyond .card-title{
+    font-size: 3rem;
+}
+
+#beyond .slick-produtcs .card{
+    position: relative;
+    
+}
+
+#beyond .slick-produtcs .card .enlace-producto{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+
+/*========== BEYOND BETTER =================================*/
+
+
+/*========== cARROUSEL PRODUCTOS =================================*/
+
+#carrousel-product{
+    position: relative;
+}
+
+.marquee-container{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    bottom: 10%;
+}
+
+.carousel-control-custom {
+    width: 35px; /* Ancho del botón */
+    height: 35px; /* Altura del botón */
+    border-radius: 50%; /* Bordes circulares */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Ajusta para centrar */
+    z-index: 1;
+}
+
+.carousel-control-prev {
+    left: 6rem;
+}
+
+.carousel-control-next {
+    right: 6rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background: linear-gradient(78.39deg, rgba(255, 87, 4, 0.1776) -137.62%, rgba(255, 64, 4, 0.74) 91.5%);
+    opacity: 1 !important;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover{
+    opacity: 1 !important;
+}
+
+
+.remove-bg{
+    filter: brightness();
+    mix-blend-mode: multiply;
+}
+
+
+
+
+/*========== CELION =================================*/
+#celion-brand{
+    background-image: url(/images/backgrounds/background-image.png);
+    border-radius: 75px;
+}
+
+#celion-brand .brand{
+    background-color: var(--primary--color);
+    padding: 2rem;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 0 10px 25px 0;
+    width: 70%; 
+}
+
+.brandspan {
+    background-color: var(--background--color);
+    color: var(--primary--color);
+    display: block;
+    border-radius: 0 10px 25px 0; 
+    width: 100%; 
+    border: 1px solid var(--primary--color);
+}
+
+/*========== CELION =================================*/
+
+/*========== COMPRAR =================================*/
+
+.comprarboton{
+    width: 60% ;
+    font-weight: bold;
+    height: 2.5rem;
+}
+#comprar .card{
+    border-radius: 30px;
+}
+
+/*========== COMPRAR =================================*/
+/*========== MEJOR =================================*/
+#mejor .bor {
+    background-color: transparent !important;
+    border-radius: 30px;
+    position: relative; /* Para el pseudo-elemento */
+    background-color: white; /* Color de fondo para el contenido */
+    overflow: hidden; /* Asegura que nada sobresalga */
+    padding: 1.5px; /* Aumenta el padding para un borde más grueso */
+}
+  
+#mejor .bor::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px;
+    background: linear-gradient(89.93deg, #FF5704 0.02%, rgba(255, 87, 4, 0) 13.51%, #FF5704 25.5%, rgba(255, 87, 4, 0) 36.99%, #FF5704 51.48%, rgba(255, 87, 4, 0) 63.97%, #FF5704 74.46%, rgba(255, 87, 4, 0) 83.95%, #FF5704 94.45%);
+    z-index: -1;
+}
+
+#mejor .bor .contenido{
+    background-color: white !important;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  
+/*========== MEJOR =================================*/
+/*========== EXPERTOS =================================*/
+#expertos{
+    background-image: url(/images/backgrounds/backgroundpanel.png);
+    background-size: cover;
+}
+#expertos h2 {
+    color: #A7A7A7;
+}
+
+#expertos h2 span {
+    background: linear-gradient(90deg, #F8C83C -8.42%, #FF5704 42.04%, #FF3CE0 93.31%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+
+  
+}
+
+
+#expertos .card-body{
+    border-radius: 30px;
+    padding: 3rem;
+}
+#expertos .card {
+    box-shadow: 0 0 25px rgba(0, 0, 0, .2); /* Sombra suave */
+    border-radius: 25px; /* Esquinas redondeadas */
+}
+
+/*========== SLICK2 =================================*/
+#slick2 {
+    position: relative; 
+}
+
+#slick2 .prev,
+#slick2 .next {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-size: 16px;
+    color: var(--background--color); 
+    cursor: pointer; 
+    z-index: 10;
+    background: linear-gradient(78.39deg, rgba(255, 87, 4, 0.1776) -137.62%, rgba(255, 64, 4, 0.74) 91.5%);
+    border-radius: 50%; 
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slick2 .prev {
+    left: 34.5%;
+    transform: translateY(-50%) ; 
+}
+
+#slick2 .next {
+    right: 34.5%; 
+    transform: translateY(-50%); 
+}
+.slick-tecnologia img {
+    border-radius: 30px; /* Ajusta el valor según el nivel de redondez que desees */
+    border: 2px solid #cecece;
+  }
+  
+
+/*========== SLICK2 =================================*/
+
+/*========== VALORES =================================*/
+
+.tarjeta1,
+.tarjeta2,
+.tarjeta3,
+.tarjeta4,
+.tarjeta5{
+    border-radius: 20px !important;
+    height: 160px !important;
+    width: 100%;
+    color: var(--secundary--text--color); 
+}
+.tarjeta1{
+    background: linear-gradient(254.84deg, #FF5704 2.28%, #F8C83C 96.89%);
+}
+.tarjeta2{
+    background: linear-gradient(254.84deg, #56D7FF 2.28%, #006B73 96.89%);
+}
+.tarjeta3{
+    background: linear-gradient(254.84deg, #FF5704 2.28%, #C73CF8 96.89%);
+}
+.tarjeta4{
+    background: linear-gradient(254.84deg, #A004FF 2.28%, #3CA9F8 96.89%);
+}
+.tarjeta5{
+    background: linear-gradient(254.84deg, #73AD28 2.28%, #F8C83C 96.89%);
+}
+
+/*========== VALORES =================================*/
+/*==========  GARANTIA =================================*/
+#garantia span{
+    display: block;
+    margin-bottom: 15px; /* Incrementa el espacio entre los span */
+    color: #484848  ;
+    font-size: 36px;
+}
+
+
+#garantia .icono-naranja{
+    
+        background-color: var(--primary--color); /* Fondo naranja */
+        color: white; /* Color del icono en blanco */
+        padding: 8px; /* Espaciado alrededor del icono */
+        border-radius: 50%; /* Hacerlo circular */
+        font-size: 1rem; /* Ajustar el tamaño del icono */
+        margin-right: 10px; /* Separar el icono del texto */
+        vertical-align: middle; /* Alinear verticalmente con el texto */
+
+    
+}
+/*==========  GARANTIA =================================*/
+/*==========  CE =================================*/
+#ce .border-subrayado{
+    border-right: none !important;
+    border-left: none !important;
+    
+}
+.border-topbottom {
+    border-top: 1px solid var(--border--subrayado);  
+    border-bottom: 1px solid var(--border--subrayado);  
+    border-left: none;  
+    border-right: none;  
+}
+/*==========  CE =================================*/
+
+/*==========  transforma =================================*/
+
+#transforma img{
+ 
+}
+
+#transforma .bac{
+    background: var(--primary--color);
+    border-radius: 0 50px 50px 0;
+
+}
+
+#transforma p{
+    color: var(--background--color);
+    font-size: 1.2rem;
+    font-family:'Montserrat-Bold';
+}
+#transforma .fondoimg{
+    background: #f1f1f1;
+}
+
+
+#transforma .transforma-container{
+}
+
+#transforma .gradient{
+    background: rgb(255,87,4);
+    background: linear-gradient(135deg, rgba(255,87,4,1) 81%, rgba(255,255,255,1) 100%);
+}
+
+
+/*==========  transforma =================================*/
+/*==========  AHORRA =================================*/
+
+.ahorra .imagen {
+    background-image: url(/images/backgrounds/ahorraback-min.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 120px 0; 
+    position: relative; 
+    
+}
+
+.ahorra .overlay {
+    position: absolute; 
+    top: 80%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-align: center; 
+    width: 100%; 
+}
+
+.gana {
+    background-image: url(/images/backgrounds/ganaback-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+}
+
+/*==========  FORMULARIO =================================*/
+
+#formulario .container-fluid{
+    padding-left: 7% !important;
+    padding-right: 0 !important;
+}
+
+#formulario .form-control {
+    border: 2px solid var(--primary--color);
+    background-color: transparent !important;
+    border-radius: 14px;
+    padding-top: .75rem;
+    padding-bottom:.75rem;
+}
+#formulario .form-control:focus {
+    box-shadow: none; /* Elimina el sombreado */
+    border-color: var(--primary--color); /* Mantiene el color del borde si es necesario */
+}
+#formulario .myForm{
+    background: rgb(255,255,255);
+    background: linear-gradient(121deg, rgba(255,255,255,1) 71%, rgba(255,87,4,0.510329131652661) 100%);
+}
+
+/*==========  FOOTER =================================*/
+#footer{
+    background-color: var(--primary--color);
+}
+
+#footer .logo{
+    margin-right: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0; 
+}
+#footer i {
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+ 
