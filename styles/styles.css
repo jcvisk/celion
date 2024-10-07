@@ -52,6 +52,11 @@ body {
     font-size: clamp(3.5rem, 4.5vw, 8rem);
     font-weight: bold;
 }
+.h6{
+    font-family: 'Montserrat-Bold';
+    font-size: clamp(3.2rem, 4vw, 7rem);
+    font-weight: bold;
+}
 .h3{font-family: 'Montserrat-Bold';
     font-size: clamp(2.5rem, 3vw, 6rem);
     font-weight: bold;
@@ -67,6 +72,7 @@ body {
     font-size: clamp(1rem, 1.5vw, 2rem);
     font-weight: bold;
 }
+
 
 
 .bold{
@@ -603,12 +609,13 @@ body {
 /*==========  transforma =================================*/
 
 #transforma img{
- 
+  border-radius: 70px 0 0 70px;
+  background: #F1F1F1;
 }
 
 #transforma .bac{
     background: var(--primary--color);
-    border-radius: 0 50px 50px 0;
+    
 
 }
 
@@ -617,21 +624,22 @@ body {
     font-size: 1.2rem;
     font-family:'Montserrat-Bold';
 }
-#transforma .fondoimg{
-    background: #f1f1f1;
+#transforma-container{
+    background: #F5F5F5;
 }
 
 
-#transforma .transforma-container{
-}
+
 
 #transforma .gradient{
     background: rgb(255,87,4);
     background: linear-gradient(135deg, rgba(255,87,4,1) 81%, rgba(255,255,255,1) 100%);
+    border-radius: 0 70px 70px 0;
+    
 }
 
 
-/*==========  transforma =================================*/
+
 /*==========  AHORRA =================================*/
 
 .ahorra .imagen {
