@@ -1,0 +1,53 @@
+/* `xs` returns only a ruleset and no media query */
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #slick2 .prev {
+        left: 10%;
+    }
+    #slick2 .next{
+        right: 10%;
+    }
+
+    #transforma img{
+        border-radius: 70px 70px 0 0;
+    }
+
+    #transforma .gradient{
+        border-radius: 0 0 70px 70px;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #formulario .container-fluid,
+    #longevidad .container-fluid {
+        padding-left: 7% !important;
+        padding-right: 7% !important;
+    }
+
+    #longevidad img{
+        object-fit: cover;
+        border-radius: 0;
+    }
+
+    #formulario .myForm{
+        background: none;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { }
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    #slick2 .prev {
+        left: 10%;
+    }
+    #slick2 .next{
+        right: 10%;
+    }
+ }
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { }
