@@ -16,6 +16,12 @@
     #transforma .gradient{
         border-radius: 0 0 70px 70px;
     }
+
+    #footer .social-media{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
