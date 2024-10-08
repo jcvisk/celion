@@ -619,6 +619,7 @@ body {
   border-radius: 70px 0 0 70px;
   background: #F1F1F1;
   object-fit: cover;
+  height: 100%;
 }
 
 #transforma .bac{
@@ -690,6 +691,7 @@ body {
 #formulario img{
     object-fit: cover;
     object-position: left;
+    height: 100%;
 }
 
 /*==========  FOOTER =================================*/
