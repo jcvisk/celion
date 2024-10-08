@@ -278,52 +278,41 @@ body {
     background-color: #B1B1B1;
     height: 100%;
 }
-  
-.item p {
-    margin: 0; 
-    display: flex; 
-    align-items: center; 
-}
 
 .parte3 h4{
-    color: #494949;
     text-transform: uppercase;
     font-family: 'Montserrat-Bold';
-    
-}
-.parte3 p{
-    color: #616161;
 }
 
 .accordion-button {
-    background-color: transparent; /* Cambia el color de fondo a transparente */
-    box-shadow: none; /* Elimina cualquier sombra del botón */
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--primary--text--color);
 }
 
 .accordion-button:focus {
-    box-shadow: none; /* Elimina el sombreado al hacer clic */
+    box-shadow: none;
     outline: none;
-    outline: none; /* Elimina el borde de enfoque por defecto */
 }
 
 .accordion-button:not(.collapsed) {
     background-color: transparent !important;
+    color: var(--primary--text--color);
 }
 
 .accordion-button:hover {
-    background-color: transparent; /* Elimina el efecto de hover */
-    box-shadow: none; /* Elimina cualquier sombra que se aplique en hover */
+    background-color: transparent;
+    box-shadow: none;
 }
 
 .accordion-button::after {
-    display: none; /* Oculta la flecha */
+    display: none;
 }
 
 #establecido img {
-    max-width: 100%; /* Se asegura de que la imagen no sea más grande que su contenedor */
-    height: auto;    /* Mantiene la proporción de la imagen */
-    object-fit: contain; /* Evita que la imagen se distorsione */
-    
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 /*========== BEYOND BETTER =================================*/
