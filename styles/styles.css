@@ -68,14 +68,6 @@ body {
     font-weight: bold;
 }
 
-.h6{
-    font-family: 'Montserrat-Bold';
-    font-size: clamp(3.2rem, 4vw, 7rem);
-    font-weight: bold;
-}
-
-
-
 .h4{
     font-family: 'Montserrat-Bold';
     font-size: clamp(1.2rem, 1.8vw, 1.9rem);
@@ -88,7 +80,11 @@ body {
     font-weight: bold;
 }
 
-
+.h6{
+    font-family: 'Montserrat-Bold';
+    font-size: clamp(3.2rem, 4vw, 7rem);
+    font-weight: bold;
+}
 
 .bold{
     font-family:'Montserrat-Bold';
@@ -118,15 +114,15 @@ body {
     color: var(--primary--color);
     border-radius: 15px;
     border: solid 1px var(--primary--color);
-    white-space: nowrap;/* Ajusta el padding para reducir el borde */
+    white-space: nowrap;
     width: 150px; 
 }
+
 .btn-secondary:hover {
     background: var(--primary--color);
     color: var(--secundary--text--color);
     border: solid 1px var(--primary--color);
 }
-
 
 .btn-primary{
     background: var(--primary--color);
@@ -134,12 +130,14 @@ body {
     border: 1px solid var(--primary--color);
     font-family: 'Montserrat-Medium';
 }
+
 .btn-primary:hover{
     background: var(--secundary--color);
     color: var(--secundary--text--color);
     border: solid 1px var(--primary--color);
     color: var(--primary--color);
 }
+
 .btn{
     border-radius: 25px;
 }
@@ -152,6 +150,10 @@ body {
 .btn-transparent:hover{
     background: transparent;
     border: solid 2px var(--background--color);
+}
+
+.fs-5{
+    color: var(--primary--text--color);
 }
 
 /*========== NAVBAR ===========*/
@@ -572,7 +574,7 @@ body {
 #garantia span{
     display: block;
     margin-bottom: 15px;
-    color: #484848;
+    color: var(--primary--text--color);
     font-weight: bolder;
 }
 
