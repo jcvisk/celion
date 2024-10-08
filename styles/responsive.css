@@ -9,15 +9,6 @@
         right: 10%;
     }
 
-    #transforma img{
-        border-radius: 70px 70px 0 0;
-        height: auto;
-    }
-
-    #transforma .gradient{
-        border-radius: 0 0 70px 70px;
-    }
-
     #formulario img.bg{
         height: auto;
     }
@@ -76,6 +67,15 @@
 
     #formulario .myForm{
         background: none;
+    }
+
+    #transforma img{
+        border-radius: 70px 70px 0 0;
+        height: auto;
+    }
+
+    #transforma .gradient{
+        border-radius: 0 0 70px 70px;
     }
 }
 
