@@ -520,6 +520,10 @@ body {
     border: 1px solid var(--primary--color);
 }
 
+#celion-brand strong{
+    font-family: 'Montserrat-Bold';
+}
+
 /*========== COMPRAR =================================*/
 #comprar .h3{font-family: 'Montserrat-Bold';
     font-size: clamp(2rem, 5vw, 3rem);
