@@ -75,6 +75,8 @@ $('.slick-tecnologia').slick({
 ]
 });
 
+/* Inicializando WOW */
+new WOW().init();
 
 /* Video Modal Control */
 $(".js-video-button").modalVideo({
