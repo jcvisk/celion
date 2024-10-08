@@ -688,9 +688,19 @@ body {
     background: linear-gradient(121deg, rgba(255,255,255,1) 71%, rgba(255,87,4,0.510329131652661) 100%);
 }
 
-#formulario img{
+#formulario .img-container{
+    position: relative;
+}
+
+#formulario img.icon{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+#formulario img.bg{
     object-fit: cover;
-    object-position: left;
+    object-position: center;
     height: 100%;
 }
 
