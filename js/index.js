@@ -2,13 +2,12 @@ $('.slick-produtcs').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 2,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1000,
     centerMode: true,
     nextArrow: false,
     prevArrow: false,
     dots:true,
-    /*centerPadding: '30px',*/
     responsive: [
       {
           /* de 480 para abajo */
@@ -38,11 +37,10 @@ $('.slick-tecnologia').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 2,
-  // autoplay: true,
+  autoplay: true,
   autoplaySpeed: 1000,
   centerMode: true,
   dots:true,
-  //centerPadding: '60px',
   nextArrow: $('.next'),
   prevArrow: $('.prev'),
   responsive: [
@@ -86,4 +84,4 @@ $(".js-video-button").modalVideo({
   }
 });
 
-//document.getElementById('year').innerHTML = new Date().getFullYear();
+document.getElementById('year').innerHTML = new Date().getFullYear();
