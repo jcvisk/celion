@@ -84,4 +84,15 @@ $(".js-video-button").modalVideo({
   }
 });
 
+/* FECHA DINAMICA PARA EL COPYRIGHT */
 document.getElementById('year').innerHTML = new Date().getFullYear();
+
+/* JS PARA QUE LOS METATAGAS SEAN DIANMICOS*/
+//Asignando dominio a metaTags
+var dominio = $(location).attr('hostname');
+$('#metatagUrlFacebook').attr('content', dominio)
+$('#metatagUrlTwitter').attr('content', dominio)
+//Asignando direccion de favicon a metaTags
+dominio+="/favicon.png"
+$('#metatagFaviconFacebook').attr('content', dominio)
+$('#metatagFaviconTwitter').attr('content', dominio)
