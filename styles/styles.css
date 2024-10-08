@@ -402,9 +402,82 @@ body {
     opacity: 1 !important;
 }
 
-.remove-bg{
-    filter: brightness();
-    mix-blend-mode: multiply;
+#carrousel-product .product-container {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "attr1 product product product product attr2"
+        "attr3 product product product product attr4";
+    width: 80%;
+    margin: auto;
+}
+
+#carrousel-product .product {
+    grid-area: product;
+    text-align: center;
+    position: relative;
+}
+
+#carrousel-product .product .product-title{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    color: var(--primary--color);
+
+    font-family: 'Montserrat-Bold';
+    font-size: clamp(2.25rem, 5vw, 6.5rem);
+    font-weight: bold;
+}
+
+#carrousel-product .product .producto{
+    position: absolute;
+}
+
+#carrousel-product .attr:nth-child(1) { grid-area: attr1; }
+#carrousel-product .attr:nth-child(2) { grid-area: attr2; }
+#carrousel-product .attr:nth-child(3) { grid-area: attr3; }
+#carrousel-product .attr:nth-child(4) { grid-area: attr4; }
+
+#carrousel-product .attr {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#carrousel-product .attr:nth-child(1),
+#carrousel-product .attr:nth-child(2){
+    align-items: end;
+}
+
+#carrousel-product .attr:nth-child(3),
+#carrousel-product .attr:nth-child(4){
+    align-items: center;
+}
+
+#carrousel-product .attr h6 {
+    font-family: 'Montserrat-Bold';
+    color: var(--primary--color);
+    text-transform: uppercase;
+}
+
+#carrousel-product .attr p {
+    color: var(--primary--color);
+}
+
+#carrousel-product .carousel-item{
+    background-image: url(/images/backgrounds/bg-gray.png);
+    background-position-y: bottom;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carrousel-product .carousel-item:nth-child(1) .product-title{
+    top: 10%;
 }
 
 /*========== CELION =================================*/
