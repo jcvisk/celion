@@ -62,7 +62,7 @@ $('.slick-tecnologia').slick({
         /* de 3000 hacia abajo */
         breakpoint: 1500,
         settings: {
-            slidesToShow: 2
+            slidesToShow: 3
         }
     },
     {
