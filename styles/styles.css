@@ -357,6 +357,10 @@ body {
     bottom: 10px;
 }
 
+.slick-dots li:not(.slick-active){
+    opacity: 0.5 !important;
+}
+
 /*========== CARROUSEL PRODUCTOS =================================*/
 
 #carrousel-product{

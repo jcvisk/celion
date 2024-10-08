@@ -19,18 +19,29 @@
 
   <body>
     <!-- =========== NAVBAR =========== -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
       <div class="container-fluid">
         <!-- Brand / Logo -->
-        <div class="brand ps-4">
+        <div class="brand order-1">
           <img src="/images/logos/logoN.png" alt="MyBrand Logo" height="25" />
-        </div>        
+        </div>
+
+        <div class="d-flex align-items-center gap-2 order-2 order-xl-3">
+
+          <button class="btn btn-sm btn-secondary d-none d-sm-inline d-xl-none">CONTACTO</button>
+
+          <button class="btn btn-sm btn-secondary d-none d-sm-inline d-xl-none">INICIAR SESIÓN</button>
+
+          <button class="btn btn-sm botoncirculo btn-secondary">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </button>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
     
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse ps-5" id="navbarNav">
+        <div class="collapse navbar-collapse ms-xl-5 order-3 order-xl-2 justify-content-between" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#">INICIO</a>
@@ -54,14 +65,11 @@
               <a class="nav-link" href="#">THE BRAND</a>
             </li>
           </ul>
-    
-          <div class="d-flex gap-3 col-12 col-md-6 col-lg-4 ms-auto">
+
+          <div class="d-flex d-sm-none d-xl-flex gap-2 me-0 me-xl-2 justify-content-between justify-content-xl-end">
             <button class="btn btn-sm btn-secondary">CONTACTO</button>
             <button class="btn btn-sm btn-secondary">
               INICIAR SESIÓN
-            </button>
-            <button class="btn btn-sm botoncirculo btn-secondary">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
             </button>
           </div>
         </div>
