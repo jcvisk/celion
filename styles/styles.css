@@ -214,8 +214,10 @@ body {
     border-radius: 50%;     
     border: solid 1px var(--primary--color); 
 }
+
 #navbarNav .nav-link:hover {
-    color: var(--primary--color); /* Cambia el color al hacer hover */
+    color: var(--primary--color);
+    font-family: 'Montserrat-Bold';
 }
 
 
