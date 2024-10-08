@@ -8,7 +8,7 @@ $('.slick-produtcs').slick({
     nextArrow: false,
     prevArrow: false,
     dots:true,
-    //centerPadding: '0px',
+    /*centerPadding: '30px',*/
     responsive: [
       {
           /* de 480 para abajo */

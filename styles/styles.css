@@ -54,7 +54,7 @@ body {
 
 .h2{
     font-family: 'Montserrat-Bold';
-    font-size: clamp(3rem, 7vw, 8rem);
+    font-size: clamp(3rem, 6vw, 6.5rem);
     font-weight: bold;
 }
 
@@ -148,13 +148,16 @@ body {
     border: solid 2px var(--background--color);
 }
 
-/*========== GENERALES ===========*/
-
 /*========== NAVBAR ===========*/
-
 .navbar-nav {
     white-space: nowrap;
 }
+
+.navbar-nav .active .nav-link {
+    font-family: 'Montserrat-Bold';
+    color: var(--primary--color);
+}
+
 
 .navbar-brand span:hover {
     color: inherit; /* Keeps the original color */
@@ -227,16 +230,14 @@ body {
 .tabla {
     display: flex; 
     align-items: center; 
-    justify-content: center;
-    padding-bottom: 7rem; 
-    padding-top: 4rem;
+    /*justify-content: center;*/
     flex-wrap: wrap;
+    gap: 2rem;
 }
   
 .item {
     display: flex; 
-    align-items: center; 
-    margin-right: 20px; 
+    align-items: center;
 }
   
 .circle {
@@ -252,18 +253,17 @@ body {
     background: linear-gradient(78.39deg, rgba(255, 87, 4, 0.1776) -137.62%, rgba(255, 64, 4, 0.74) 91.5%);
 }
   
-  .separator {
-    width: 2px; 
-    background-color: #B1B1B1; 
-    height: 30px; 
-    margin-left: 10px; 
-  }
+.separator {
+    width: 2px;
+    background-color: #B1B1B1;
+    height: 100%;
+}
   
-  .item p {
+.item p {
     margin: 0; 
     display: flex; 
     align-items: center; 
-  }
+}
 
 .parte3 h4{
     color: #494949;
@@ -272,10 +272,9 @@ body {
     
 }
 .parte3 p{
-   
     color: #616161;
-    font-size: 22px;
 }
+
 .accordion-button {
     background-color: transparent; /* Cambia el color de fondo a transparente */
     box-shadow: none; /* Elimina cualquier sombra del botón */
@@ -310,7 +309,7 @@ body {
 /*========== BEYOND BETTER =================================*/
 #beyond .h1{
     font-family: 'Montserrat-Bold';
-    font-size: clamp(1rem, 7vw, 3rem);
+    font-size: clamp(1.8rem, 4.5vw, 3rem);
     font-weight: bold;
     word-wrap: break-word;
     overflow-wrap: break-word;

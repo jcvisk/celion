@@ -51,3 +51,21 @@
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) { }
+
+
+
+
+/*Especifivos para la tabla*/
+.separator {
+    display: none;
+}
+@media (min-width: 434px) {
+    .separator:nth-child(2) {
+        display: block;
+    }
+}
+@media (min-width: 768px) {
+    .separator:nth-child(4) {
+        display: block;
+    }
+}
