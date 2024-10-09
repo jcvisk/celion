@@ -1,0 +1,40 @@
+/* .imgMovimiento{
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50vw;
+} */
+
+
+/* .imgMovimiento img {
+    position: sticky !important;
+} */
+
+.sticky-img-container {
+    position: sticky;
+    top: 0;
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: flex-start; 
+    z-index: 10; 
+}
+
+.sticky-img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+.letraborder{
+    color: #231f20;
+    -webkit-text-stroke: 2px var(--primary--color);
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
