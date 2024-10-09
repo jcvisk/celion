@@ -7,29 +7,37 @@ $('.slick-produtcs').slick({
     centerMode: true,
     nextArrow: false,
     prevArrow: false,
+    
     dots:true,
     responsive: [
-      {
-          /* de 480 para abajo */
-          breakpoint: 480,
-          settings: {
-              slidesToShow: 1
-          }
-      },
-      {
-          /* de 967 hacia abajo */
-          breakpoint: 967,
-          settings: {
-              slidesToShow: 2
-          }
-      },
-      {
-          /* de 3000 hacia abajo */
-          breakpoint: 3000,
-          settings: {
-              slidesToShow: 3
-          }
-      }
+        {
+            /* de 480 para abajo */
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1
+            }
+        },
+        {
+            /* de 1300 hacia abajo */
+            breakpoint: 1300,
+            settings: {
+                slidesToShow: 1
+            }
+        },
+        {
+            /* de 3000 hacia abajo */
+            breakpoint: 1500,
+            settings: {
+                slidesToShow: 3
+            }
+        },
+        {
+            /* de 3000 hacia abajo */
+            breakpoint: 3000,
+            settings: {
+                slidesToShow: 3
+            }
+        }
   ]
   });
 

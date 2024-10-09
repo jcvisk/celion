@@ -73,6 +73,7 @@ body {
     font-weight: bold;
 }
 
+
 .h4{
     font-family: 'Montserrat-Bold';
     font-size: clamp(1.2rem, 1.8vw, 1.9rem);
@@ -88,6 +89,11 @@ body {
 .h6{
     font-family: 'Montserrat-Bold';
     font-size: clamp(3.2rem, 4vw, 7rem);
+    font-weight: bold;
+}
+.h7{
+    font-family: 'Montserrat-Bold';
+    font-size: clamp(1.3rem, 7vw, 2.8rem);
     font-weight: bold;
 }
 
@@ -374,6 +380,7 @@ body {
 .slick-dots li:not(.slick-active){
     opacity: 0.5 !important;
 }
+
 
 /*========== CARROUSEL PRODUCTOS =================================*/
 
