@@ -22,6 +22,18 @@
     font-family: 'Montserrat-Medium';
     src: url(../assets/fonts/Montserrat/static/Montserrat-Medium.ttf);
 }
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'Karla-Regular';
+    src: url(../assets/fonts/karla/static/Karla-Regular.ttf);
+}
+@font-face {
+    font-family: 'Karla-Italic';
+    src: url(../assets/fonts/karla/static/Karla-Italic.ttf);
+}
 
 :root {
     --primary--color: #ff5704;

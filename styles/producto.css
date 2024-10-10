@@ -1,0 +1,62 @@
+.sticky-img-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+}
+.sticky-img {
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.karlatexto span,p,li{
+    font-family: "Karla-Regular";  
+}
+.karla-italic span{
+    font-family: 'Karla-Italic';
+}
+/* ==============MUNO T ============= */
+.letraborder{
+    color: #231f20;
+    -webkit-text-stroke: .5px var(--primary--color);
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins-Bold';
+    position: absolute;
+   top:-65px;
+    left: -113.5px;
+    letter-spacing: 10px;
+}
+.espacio{
+    letter-spacing: 3px;
+}
+
+/* ============BENEFICIOS============ */
+.fondon{
+    background: linear-gradient(180deg, rgba(255, 87, 4, 0.1258) 0%, rgba(255, 87, 4, 0.74) 100%);
+
+}
+.blancoborder{
+    color: #231f20;
+    -webkit-text-stroke: 1px var( --background--color);
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins-Bold';
+    letter-spacing: 3px;
+}
+
+/* ============INGREDIENTES============ */
+
+.ingredientes img{
+    width: 30px;
+}
+.ingredientes{
+    border-top: 1px solid var(--primary--color); /* Solo el borde superior */
+    border-bottom: 1px solid var(--primary--color); /* Solo el borde inferior */
+    border-left: none; /* Sin borde a la izquierda */
+    border-right: none; /* Sin borde a la derecha */
+}
+
+
+
+
+
