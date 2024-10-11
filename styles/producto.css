@@ -30,6 +30,7 @@
     top: -65px;
     left: -113.5px;
     letter-spacing: 10px;
+    text-wrap: nowrap;
 }
 
 @media (max-width: 1024px) {
@@ -90,6 +91,8 @@
 }
 
 
-
+.ajustarimg{
+    width: 60%;
+}
 
 
