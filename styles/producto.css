@@ -9,6 +9,10 @@
     position: sticky;
     top: 50%;
     transform: translateY(-50%);
+    left: 70%;
+}
+.imggrande {
+    width: 40%;
 }
 .karlatexto span,p,li{
     font-family: "Karla-Regular";  
@@ -17,16 +21,44 @@
     font-family: 'Karla-Italic';
 }
 /* ==============MUNO T ============= */
-.letraborder{
+.letraborder {
     color: #231f20;
-    -webkit-text-stroke: .5px var(--primary--color);
+    -webkit-text-stroke: 0.5px var(--primary--color);
     -webkit-text-fill-color: transparent;
     font-family: 'Poppins-Bold';
     position: absolute;
-   top:-65px;
+    top: -65px;
     left: -113.5px;
     letter-spacing: 10px;
 }
+
+@media (max-width: 1024px) {
+    .letraborder {
+        top: -32px;
+        left: -65px;
+        letter-spacing: 9px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .letraborder {
+        top: -16px;
+        left: -55px;
+        letter-spacing: 7px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .letraborder {
+        top: -26px;
+        left: -30px;
+        letter-spacing: 5px;
+    }
+}
+
+
 .espacio{
     letter-spacing: 3px;
 }
@@ -41,7 +73,8 @@
     -webkit-text-stroke: 1px var( --background--color);
     -webkit-text-fill-color: transparent;
     font-family: 'Poppins-Bold';
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    
 }
 
 /* ============INGREDIENTES============ */
