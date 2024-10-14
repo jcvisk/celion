@@ -33,11 +33,11 @@
     top: -65px;
     left: -113.5px;
     letter-spacing: 10px;
-    word-break: break-all ;
+    word-break: normal ;
 
 }
 .hb{
-    font-size: clamp(3rem, 7vw, 12rem);
+    font-size: clamp(4rem, 7vw, 12rem);
     font-weight: bold;
 }
 
