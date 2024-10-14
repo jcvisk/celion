@@ -1,3 +1,6 @@
+/* *{
+    outline: 1px solid red;
+} */
 .sticky-img-container {
     position: absolute;
     top: 0;
@@ -30,7 +33,13 @@
     top: -65px;
     left: -113.5px;
     letter-spacing: 10px;
-    text-wrap: nowrap;
+    word-break: break-all ;
+
+}
+.hb{
+    font-family: 'Montserrat-Bold';
+    font-size: clamp(3rem, 7vw, 12rem);
+    font-weight: bold;
 }
 
 @media (max-width: 1024px) {
