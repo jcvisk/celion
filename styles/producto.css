@@ -34,6 +34,7 @@
     left: -113.5px;
     letter-spacing: 10px;
     word-break: normal ;
+    text-wrap: nowrap ;
 
 }
 .hb{

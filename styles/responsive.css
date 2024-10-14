@@ -79,6 +79,7 @@
     }
     .letraborder {
         word-break: normal !important;
+        text-wrap: wrap !important;
     }
 }
 
