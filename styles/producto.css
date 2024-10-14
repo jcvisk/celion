@@ -37,7 +37,6 @@
 
 }
 .hb{
-    font-family: 'Montserrat-Bold';
     font-size: clamp(3rem, 7vw, 12rem);
     font-weight: bold;
 }
