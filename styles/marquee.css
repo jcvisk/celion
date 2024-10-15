@@ -13,7 +13,6 @@
     border: 2px solid;
     border-image-source: linear-gradient(89.93deg, #FF5704 0.02%, rgba(255, 87, 4, 0) 13.51%, #FF5704 25.5%, rgba(255, 87, 4, 0) 36.99%, #FF5704 51.48%, rgba(255, 87, 4, 0) 63.97%, #FF5704 74.46%, rgba(255, 87, 4, 0) 83.95%, #FF5704 94.45%);
     border-image-slice: 1; /* Para que el borde aplique a todo el contorno */
-    transform: rotate(-1deg);
     z-index: 9999 !important;
     color: var(--primary--color);
     padding: .5rem 0;
@@ -40,4 +39,9 @@
     to {
         transform: translateX(100%);
     }
+}
+.swiper-slide a{
+  border: none;
+  text-decoration: none;
+  color: var(--primary--color);
 }
