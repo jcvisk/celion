@@ -41,6 +41,8 @@
   --background--color: #ffffff;
   --primary--text--color: #484848;
   --secundary--text--color: #ffffff;
+  --tab--border--color: #DFDFDF;
+  --tab--color: #797979;
   --primary--font: "Montserrat", sans-serif;
   --border--subrayado: linear-gradient(
     89.93deg,
@@ -204,8 +206,9 @@ body {
   color: var(--primary--text--color);
 }
 
-.mt-10 {
+.my-10 {
   margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .btn-scuare {

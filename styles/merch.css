@@ -1,3 +1,56 @@
-.borde1{
-    outline: 1px red solid;
+@import url("stylesGeneral.css");
+.borde1 {
+  outline: 1px red solid;
+}
+.merch-container h2 {
+  font-family: "Montserrat-Bold";
+  color: var(--primary--color);
+  font-weight: 800;
+  margin-top: 10%;
+}
+.merch-container h3 {
+  font-family: "Montserrat-Bold";
+  color: var(--primary--color);
+  font-weight: 800;
+}
+.merch-container h4 {
+  font-family: "Montserrat-Bold";
+  color: var(--primary--color);
+  font-weight: 800;
+}
+.merch-container p {
+  font-family: "Montserrat-Light";
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+.nav {
+  gap: 50px;
+}
+.nav-link.tab-btn {
+  border: 1px var(--tab--border--color) solid;
+  border-radius: 28px;
+  color: var(--tab--color);
+  background: #d4d4d429;
+}
+.nav-link.active {
+  border: 2px var(--primary--color) solid;
+  color: var(--primary--color);
+}
+
+.merch-card {
+  width: 100%;
+}
+figure {
+  width: 100%;
+}
+figure img {
+  width: 70%;
+}
+.w-70 {
+  width: 70%;
+}
+p.merch-description {
+}
+p.merch-price {
+  font-family: "Montserrat-Bold";
 }
