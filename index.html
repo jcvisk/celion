@@ -103,8 +103,26 @@
         </div>
       </nav>
     </header>
+ <section class="video-container">
+  <video class="w-100" autoplay loop muted playsinline>
+    <source src="assets/video/celionColor.mp4" type="video/mp4">
+  </video>
+  <div  class="video-texto">
+    <div class="container-fluid text-star  text-white py-5 titulo1">
+      <h1 class="h1 wow animate__animated animate__slideInLeft">NEW <br />ARRIVALS</h1>
+      <p class="fs-5 text-white wow animate__animated animate__fadeIn">
+        Celion nace de la idea de proporcionar a nuestra familia <br />
+        productos efectivos que representen un cambio importante y <br />
+        positivo en la vida de los seres que más amamos.
+      </p>
+      <a href="#" class="btn btn-primary">COMENZAR</a>
+    </div>
+  </div>
+ </section>
+   
 
-    <section class="bg-image">
+    <!-- <section class="bg-image">
+
       <div class="container-fluid text-star  text-white py-5 titulo1">
         <h1 class="h1 wow animate__animated animate__slideInLeft">NEW <br />ARRIVALS</h1>
         <p class="fs-5 text-white wow animate__animated animate__fadeIn">
@@ -114,7 +132,7 @@
         </p>
         <a href="#" class="btn btn-primary">COMENZAR</a>
       </div>
-    </section>
+    </section> -->
 
     <section id="longevidad">
       <div class="container-fluid">
@@ -707,12 +725,27 @@
       </div>
     </section>
 
+    
+ 
     <section id="mejor" class="container-fluid">
       <div class="text-center">
-        <h2 class="h2 color-primary mb-4 pb-5 wow animate__animated animate__fadeInDown">MÁS ALLA DE LO MEJOR.</h2>
-        <a href="#" target="_blank" class="js-video-button" data-video-id='KXrDVshHh-Y'>
+        <h2 class="h2 color-primary mb-4 pb-5 wow animate__animated animate__fadeInDown">MÁS ALLÁ DE LO MEJOR.</h2>
+        <div class="container-fluid video-container">
+            <video id="video" class="w-100 video-rounded" controls>
+                <source src="assets/video/celionColor.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+            <div class="play-button" id="playButton">
+              <img class="img-fluid" src="images/icons/playb.png" alt="">
+            </div> <!-- Flecha de reproducción -->
+        </div>
+    </div>
+    
+    
+       
+        <!-- <a href="#" target="_blank" class="js-video-button" data-video-id='KXrDVshHh-Y'>
           <img src="/images/VIDEO-min.png" class="img-fluid d-block mx-auto wow animate__animated animate__fadeIn" alt="bg-video">
-        </a>
+        </a> -->
       </div>
       <div class="py-10">
         <div class="row justify-content-between">
@@ -1093,6 +1126,25 @@
     <script src="/assets/plugins/modalvideo/jquery-modal-video.min.js"></script>
     <script src="/assets/plugins/animate/wow.min.js"></script>
     <script src="js/index.js"></script>
+
+    <script>
+      const video = document.getElementById('video');
+      const playButton = document.getElementById('playButton');
+
+      video.addEventListener('play', () => {
+          playButton.style.display = 'none';
+      });
+
+      video.addEventListener('pause', () => {
+          playButton.style.display = 'block';
+      });
+
+      // Para que la flecha aparezca al cargar la página si el video está pausado
+      if (video.paused) {
+          playButton.style.display = 'block';
+      }
+
+    </script>
 
     <script>
       const getConfiguration = (reverse) => {
