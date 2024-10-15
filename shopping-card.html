@@ -66,14 +66,14 @@
 
                 <div class="collapse navbar-collapse ms-xl-5 order-3 order-xl-2 justify-content-between" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="producto.html">PRODUCTOS</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">COMPRAR</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="shopping-card.html">COMPRAR</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">ORIGEN</a>
@@ -99,191 +99,124 @@
         </nav>
     </header>
 
-    <main class="mt-10">
+    <main class="my-10">
         <section class="main container-fluid">
-            <div class="mainWrapper">
-                <div class="mainBackground clearfix">
-                    <div class="row">
-                        <div class="column small-centered">
-                            <div class="productCard_block">
-                                <div class="row">
-                                    <div class="col-12 col-lg-7">
-                                        <div class="row gy-3 productCard_leftSide clearfix">
-                                            <div class="col-12 col-md-3 order-1 order-md-0">
-                                                <div class="sliderBlock_positionControls">
-                                                    <div class="sliderBlock_positionControls__paginatorItem sliderBlock_positionControls__active">
-                                                        <img src="images/productos/pMunoT.png" alt="prod" class="">
-                                                    </div>
-                                                    <div class="sliderBlock_positionControls__paginatorItem">
-                                                        <img src="images/productos/fproductn.png" alt="prod" class="img-fluid">
-                                                    </div>
-                                                    <div class="sliderBlock_positionControls__paginatorItem">
-                                                        <img src="images/productos/fproductv.png" alt="prod" class="img-fluid">
-                                                    </div>
-                                                </div>
+            <div class="row gy-4">
+                <div class="col-12 col-lg-7">
+                    <div class="row gy-3 productCard_leftSide">
+                        <div class="col-12 col-md-4 col-lg-3 order-1 order-md-0 d-none d-md-block">
+                            <div class="sliderBlock_positionControls">
+                                <div class="sliderBlock_positionControls__paginatorItem sliderBlock_positionControls__active">
+                                    <img src="images/productos/pMunoT.png" alt="prod" class="">
+                                </div>
+                                <div class="sliderBlock_positionControls__paginatorItem">
+                                    <img src="images/productos/fproductn.png" alt="prod" class="img-fluid">
+                                </div>
+                                <div class="sliderBlock_positionControls__paginatorItem">
+                                    <img src="images/productos/fproductv.png" alt="prod" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-9 order-0 order-md-1">
+                            <div class="sliderBlock">
+                                <ul class="sliderBlock_items">
+                                    <li class="sliderBlock_items__itemPhoto sliderBlock_items__showing">
+                                        <img src="images/productos/pMunoT.png" alt="headphones" class="img-fluid">
+                                    </li>
+                                    <li class="sliderBlock_items__itemPhoto">
+                                        <img src="images/productos/fproductn.png" alt="headphones" class="img-fluid">
+                                    </li>
+                                    <li class="sliderBlock_items__itemPhoto">
+                                        <img src="images/productos/fproductv.png" alt="headphones" class="img-fluid">
+                                    </li>
+                                </ul>
+
+
+                                <div class="sliderBlock_controls">
+                                    <div class="sliderBlock_controls__navigatin">
+                                        <div class="sliderBlock_controls__wrapper">
+                                            <div
+                                                class="sliderBlock_controls__arrow sliderBlock_controls__arrowBackward">
+                                                <i class="fa fa-arrow-left" aria-hidden="true"></i>
                                             </div>
-                                            <div class="col-12 col-md-9 order-0 order-md-1">
-                                                <div class="sliderBlock">
-                                                    <ul class="sliderBlock_items">
-                                                        <li class="sliderBlock_items__itemPhoto sliderBlock_items__showing">
-                                                            <img src="images/productos/pMunoT.png" alt="headphones" class="img-fluid">
-                                                        </li>
-                                                        <li class="sliderBlock_items__itemPhoto">
-                                                            <img src="images/productos/fproductn.png" alt="headphones" class="img-fluid">
-                                                        </li>
-                                                        <li class="sliderBlock_items__itemPhoto">
-                                                            <img src="images/productos/fproductv.png" alt="headphones" class="img-fluid">
-                                                        </li>
-                                                    </ul>
-        
-        
-                                                    <div class="sliderBlock_controls">
-                                                        <div class="sliderBlock_controls__navigatin">
-                                                            <div class="sliderBlock_controls__wrapper">
-                                                                <div
-                                                                    class="sliderBlock_controls__arrow sliderBlock_controls__arrowBackward">
-                                                                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                                                                </div>
-                                                                <div
-                                                                    class="sliderBlock_controls__arrow sliderBlock_controls__arrowForward">
-                                                                    <i class="fa fa-arrow-right next" aria-hidden="true"></i>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div
+                                                class="sliderBlock_controls__arrow sliderBlock_controls__arrowForward">
+                                                <i class="fa fa-arrow-right next" aria-hidden="true"></i>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-lg-5">
-                                        <div class="productCard_rightSide">
-                                            <div class="block_specification">
-                                                <div class="block_specification__specificationShow">
-                                                    <i class="fa fa-cog block_specification__button block_specification__button__rotate"
-                                                        aria-hidden="true"></i>
-                                                    <span class="block_specification__text">spec</span>
-                                                </div>
-                                                <div class="block_specification__informationShow hide">
-                                                    <i class="fa fa-info-circle block_specification__button block_specification__button__jump"
-                                                        aria-hidden="true"></i>
-                                                    <span class="block_specification__text">inform</span>
-                                                </div>
-                                            </div>
-    
-                                            <p class="block_model">
-                                                <span class="block_model__text">Model: </span>
-                                                <span class="block_model__number">505795</span>
-                                            </p>
-    
-                                            <div class="block_product">
-                                                <p>(New Design)</p>
-                                                <h2 class="block_name block_name__mainName">MUNO T</h2>
-                                                <span>Té Détox</span>
-                                                <h2 class="block_name block_name__addName">$400 USD</h2>
-    
-                                              
-                                                <div class="text-end">
-                                                    <i class="fa fa-check" aria-hidden="true"></i> EN STOCK
-                                                   <hr>
-                                                </div>
-                                                
-    
-                                                <div class="block_informationAboutDevice">
-    
-                                                    <div
-                                                        class="block_descriptionCharacteristic block_descriptionCharacteristic__disActive">
-                                                        <table class="block_specificationInformation_table">
-                                                            <tr>
-                                                                <th>Characteristic</th>
-                                                                <th>Value</th>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Ear Coupling</td>
-                                                                <td>Around Ear</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Transducer Principle</td>
-                                                                <td>Dynamic, Closed-back</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Frequency Response</td>
-                                                                <td>16Hz – 22kHz</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Sound Pressure Level (SPL)</td>
-                                                                <td>113 dB (Passive: 1 kHz/1 Vrms)</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Total Harmonic Distortion (THD)</td>
-                                                                <td>&lt;0.5% (1 kHz, 100 dB SPL)</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Volume Control</td>
-                                                                <td>Earcup control when Bluetooth connected</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Microphone Type</td>
-                                                                <td>Dual omni-directional microphone <br>(2 mic beam forming
-                                                                    array)
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Cable / Connector</td>
-                                                                <td>1.4m (Detachable) / 3.5mm Angled</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Weight</td>
-                                                                <td>260g (9.17 oz)</td>
-                                                            </tr>
-                                                        </table>
-                                                    </div>
-    
-    
-    
-                                                    <p>Muno T está formulado para reducir la inflamación celular y
-                                                        eliminar las toxinas que se acumulan en el organismo, con una
-                                                        mezcla de hierbas naturales, Muno T ayuda especialmente a
-                                                        desintoxicar higado, riñones y sistema digestivo, tambien es una
-                                                        herramienta poderosa para promover la optima absorcion de los
-                                                        nutrientes que nuestro cuerpo necesita.</p>
-                                                    <p>Ingredientes: Hongo
-                                                        Ganoderma, Hongo Shaga, Jengibre, Cardo Bendito, Manzanilla,
-                                                        Senosidos, Fruto de durazno.</p>
-    
-    
-    
-                                                    <div class="block_quantity__chooseBlock mt-5">
-                                                        <div class="cant-box">
-                                                            <div class=""
-                                                                onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                                                                <i class="fas fa-minus"></i>
-                                                            </div>
-                                                            <input min="0" name="quantity" value="1" type="number">
-                                                            <div class=""
-                                                                onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                                                                <i class="fas fa-plus"></i>
-                                                            </div>
-                                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="productCard_rightSide">
 
-                                                        <div class="btn-group btn-add_card" role="group" aria-label="Button group with nested dropdown">
-                                                            <button type="button" class="btn btn-primary btn-scuare">
-                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                                                                Añadir a Carrito
-                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            </button>
-                                                            <button type="button" class="btn btn-primary btn-scuare text-start">
-                                                                <img src="images/icons/arrow-link.png" alt="arrow" class="img-fluid">
-                                                            </button>
-                                                          </div>
-    
-                                                        <button class="btn btn-primary btn-scuare">Seguir Comprando</button>
-                                                    </div>
-    
-                                                    <span>compartir</span>
-                                                    <img src="/images/icons/facebookb.png" alt="" class=" img-fluid tlogo">
-                                                    <i class="fa fa-pinterest tlogo" aria-hidden="true"></i>
+                        <div class="block_product">
+                            <p class="color-primary">(New Design)</p>
+                            <h3 class="block_name block_name__mainName h3">MUNO T</h3>
+                            <div class="my-3"><span>Té Détox</span></div>
+                            <h3 class="block_name block_name__addName bold">$400 USD</h3>
+
+                          
+                            <div class="text-end in-stock">
+                                <i class="fa fa-check" aria-hidden="true"></i> EN STOCK
+                            </div>
+
+                            <hr class="separador">
+
+                            <div class="block_informationAboutDevice">
+                                <p class="fs-5">Muno T está formulado para reducir la inflamación celular y
+                                    eliminar las toxinas que se acumulan en el organismo, con una
+                                    mezcla de hierbas naturales, Muno T ayuda especialmente a
+                                    desintoxicar higado, riñones y sistema digestivo, tambien es una
+                                    herramienta poderosa para promover la optima absorcion de los
+                                    nutrientes que nuestro cuerpo necesita.
+                                </p>
+                                <p class="fs-5">
+                                    Ingredientes: Hongo Ganoderma, Hongo Shaga, Jengibre, Cardo Bendito, Manzanilla,
+                                    Senosidos, Fruto de durazno.
+                                </p>
+                                <div class="row block_quantity__chooseBlock mt-5">
+                                    <div class="col-12 col-md-6 col-lg-9 col-xl-6 d-flex gap-3 flex-column">
+                                        <div>
+                                            <div class="cant-box w-100">
+                                                <div class="text-start"
+                                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                    <i class="fas fa-minus"></i>
+                                                </div>
+                                                <input min="0" name="quantity" value="1" type="number">
+                                                <div class="text-end"
+                                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                    <i class="fas fa-plus"></i>
                                                 </div>
                                             </div>
+                                        </div>
+    
+                                        <div>
+                                            <div class="btn-add_card d-flex">
+                                                <button type="button" class="btn btn-primary btn-scuare">
+                                                    Añadir a Carrito
+                                                </button>
+                                                <button type="button" class="btn btn-primary btn-scuare">
+                                                    <img src="images/icons/arrow-link.png" alt="arrow">
+                                                </button>
+                                            </div>
+                                        </div>
+    
+                                        <div>
+                                            <button class="btn btn-primary btn-scuare w-100">Seguir Comprando</button>
+                                        </div>
+
+                                        <div class="compartir">
+                                            <small class="bold">COMPARTIR:</small>
+                                            <a href="#">
+                                                <img src="/images/icons/facebookb.png" alt="" class="img-fluid">
+                                            </a>
+                                            <a href="#">
+                                                <img src="/images/icons/pinterestb.png" alt="" class="img-fluid">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
