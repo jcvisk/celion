@@ -221,6 +221,12 @@
 #carrousel-product .product .producto{
     position: absolute;
 }
+/* #carrousel-product .producto:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    overflow: hidden;
+} */
+
+
 
 #carrousel-product .attr:nth-child(1) { grid-area: attr1; }
 #carrousel-product .attr:nth-child(2) { grid-area: attr2; }
@@ -457,7 +463,7 @@
     border-left: none !important;
 }
 
-.border-topbottom {
+#ce .border-topbottom {
     border-top: 1px solid var(--border--subrayado);  
     border-bottom: 1px solid var(--border--subrayado);  
     border-left: none;  
@@ -471,6 +477,42 @@
 #ce h3{
     font-family: 'Montserrat-Bold';
 }
+
+
+#ce .delay-2 {
+    animation-delay: .3s; 
+  }
+  
+#ce .delay-3 {
+    animation-delay: .6s; 
+  }
+  
+#ce .delay-4 {
+    animation-delay: .9s; 
+  }
+  
+#ce .delay-5 {
+    animation-delay: 1.2s; 
+  }
+#ce .delay-6{
+    animation-delay: 1.5s;
+  }
+  
+  
+#ce .wow.animate__zoomInDown,
+  .wow.animate__zoomInLeft {
+    animation-duration: 1s; 
+  }
+#ce h2,h3{
+    transition: transform 0.3s ease;
+  }
+#ce h2:hover,
+#ce h3:hover{
+    transform: scale(1.5);
+    font-family: 'Montserrat-Bold';
+    
+  }
+
 
 /*==========  transforma =================================*/
 #transforma .h6{
