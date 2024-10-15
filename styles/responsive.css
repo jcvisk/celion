@@ -47,9 +47,9 @@
         display: none;
     }
 
-    .marquee-container {
+    /*.marquee-container {
         bottom: 43%;
-    }
+    }*/
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */

@@ -207,6 +207,27 @@ body {
 }
 
 /*========== NAVBAR ===========*/
+#nav{
+  transition: 0.3s ease;
+}
+.navbar.bg-light{
+  background-color: white;
+}
+
+.navbar.navbar-transparent{
+  background: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.navbar.nav-glass:has(.show) {
+  background: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
 .navbar-nav {
   white-space: nowrap;
 }
@@ -240,6 +261,10 @@ body {
 
 .navbar-toggler-icon {
   background-image: url(/images/icons/toggler-icon.svg);
+}
+
+.nav-glass .navbar-toggler-icon {
+  background-image: url(/images/icons/toggler-icon-white.svg);
 }
 
 .botoncirculo {
