@@ -10,8 +10,8 @@
 }
 .sticky-img {
     position: sticky;
-    top: 50%;
-    transform: translateY(-50%);
+   
+    top: 1px;
     left: 70%;
 }
 .imggrande {
