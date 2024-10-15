@@ -1,3 +1,12 @@
+$(window).scroll(function(){
+    if ($("#nav").offset().top > 56) {
+        $("#nav").addClass("navbar-transparent");
+    }else{
+        $("#nav").removeClass("navbar-transparent");
+    }
+});
+
+
 $('.slick-produtcs').slick({
     infinite: true,
     slidesToShow: 3,
