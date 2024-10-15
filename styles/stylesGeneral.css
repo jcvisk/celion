@@ -186,6 +186,14 @@ body {
     color: var(--primary--text--color);
 }
 
+.mt-10{
+    margin-top: 6rem;
+}
+
+.btn-scuare{
+    border-radius: 0.25rem;
+}
+
 /*========== NAVBAR ===========*/
 .navbar-nav {
     white-space: nowrap;

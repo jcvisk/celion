@@ -74,14 +74,10 @@ window.onload = function () {
 
         console.log("OK");
 
-
         buttonSpecification.classList.toggle("hide");
         buttonInformation.classList.toggle("hide");
 
-
         blockCharacteristiic.classList.toggle("block_descriptionCharacteristic__active");
-
-
     };
 
 
