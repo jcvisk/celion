@@ -1,0 +1,32 @@
+@import url("stylesGeneral.css");
+.background2-page {
+  background-image: var(--background2-page);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background2-page h2 {
+  font-family: "Montserrat-Bold";
+  font-weight: 800;
+  margin-top: 10%;
+}
+.background2-page p {
+  font-family: "Montserrat-Light";
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+.background2-page h3 {
+  font-family: "Montserrat-Medium";
+  font-weight: 600;
+  margin-top: 10%;
+}
+
+@media (min-width: 1200px) {
+    .background2-page h2 {
+    margin-top: 4%;
+  }
+}
+@media (min-width: 1500px) {
+  /* .event-card {
+    min-height: 1000px;
+  } */
+}
