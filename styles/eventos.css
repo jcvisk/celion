@@ -1,17 +1,12 @@
 @import url("stylesGeneral.css");
-nav {
-  /* background: linear-gradient(
+/* nav {
+  background: linear-gradient(
     112.22deg,
     rgba(0, 0, 0, 0.4) 2.38%,
     rgba(0, 0, 0, 0.15) 52.37%,
     rgba(0, 0, 0, 0.45) 97.59%
-  ); */
-}
-.navbar-toggler-white-icon {
-  width: 30px;
-  height: 30px;
-  background-image: url("../images/icons/toggler-white-icon.svg");
-}
+  );
+} */
 .borde1 {
   outline: 1px white solid;
 }

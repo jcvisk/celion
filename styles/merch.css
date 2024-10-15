@@ -54,3 +54,9 @@ p.merch-description {
 p.merch-price {
   font-family: "Montserrat-Bold";
 }
+
+@media (max-width: 500px) {
+  .merch-container h2 {
+   margin-top: 20%;
+  }
+}
