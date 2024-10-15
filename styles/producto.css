@@ -1,3 +1,6 @@
+/* *{
+    outline: 1px solid red;
+} */
 .sticky-img-container {
     position: absolute;
     top: 0;
@@ -7,8 +10,8 @@
 }
 .sticky-img {
     position: sticky;
-    top: 50%;
-    transform: translateY(-50%);
+   
+    top: 1px;
     left: 70%;
 }
 .imggrande {
@@ -30,7 +33,13 @@
     top: -65px;
     left: -113.5px;
     letter-spacing: 10px;
-    text-wrap: nowrap;
+    word-break: normal ;
+    text-wrap: nowrap ;
+
+}
+.hb{
+    font-size: clamp(4rem, 7vw, 12rem);
+    font-weight: bold;
 }
 
 @media (max-width: 1024px) {

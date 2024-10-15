@@ -77,7 +77,12 @@
     #transforma .gradient{
         border-radius: 0 0 70px 70px;
     }
+    .letraborder {
+        word-break: normal !important;
+        text-wrap: wrap !important;
+    }
 }
+
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { }
