@@ -54,7 +54,14 @@
     rgba(255, 87, 4, 0) 83.95%,
     #ff5704 94.45%
   );
+  --crystal-background: linear-gradient(
+    112.22deg,
+    rgba(255, 255, 255, 0.3886) 2.38%,
+    rgba(255, 158, 117, 0.1474) 52.37%,
+    rgba(255, 255, 255, 0.4489) 97.59%
+  );
   --background2-page: url("../images/backgrounds/events_background.png");
+  --presentation-front-page: url("../images/backgrounds/cellion-presentation-default-image.png");
 }
 
 * {
@@ -197,12 +204,12 @@ body {
   color: var(--primary--text--color);
 }
 
-.mt-10{
-    margin-top: 6rem;
+.mt-10 {
+  margin-top: 6rem;
 }
 
-.btn-scuare{
-    border-radius: 0.25rem;
+.btn-scuare {
+  border-radius: 0.25rem;
 }
 
 /*========== NAVBAR ===========*/

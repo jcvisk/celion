@@ -44,12 +44,7 @@ nav {
   outline: 1px white solid;
   border-radius: 22px;
   margin-bottom: 100px;
-  background: linear-gradient(
-    112.22deg,
-    rgba(255, 255, 255, 0.3886) 2.38%,
-    rgba(255, 158, 117, 0.1474) 52.37%,
-    rgba(255, 255, 255, 0.4489) 97.59%
-  );
+  background: var(--crystal-background);
   padding: 10px;
   transition: all 0.3s ease-in-out;
 }
