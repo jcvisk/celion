@@ -1,0 +1,82 @@
+@import url("stylesGeneral.css");
+nav {
+  /* background: linear-gradient(
+    112.22deg,
+    rgba(0, 0, 0, 0.4) 2.38%,
+    rgba(0, 0, 0, 0.15) 52.37%,
+    rgba(0, 0, 0, 0.45) 97.59%
+  ); */
+}
+.navbar-toggler-white-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/icons/toggler-white-icon.svg");
+}
+.borde1 {
+  outline: 1px white solid;
+}
+.borde2 {
+  outline: 1px rgb(255, 252, 61) solid;
+}
+.background2-page {
+  background-image: var(--background2-page);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background2-page h2 {
+  font-family: "Montserrat-Bold";
+  font-weight: 800;
+  margin-top: 10%;
+}
+.background2-page p {
+  font-family: "Montserrat-Light";
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+.background2-page h3 {
+  font-family: "Montserrat-Medium";
+  font-weight: 600;
+  margin-top: 10%;
+}
+.event-card {
+  width: 90%;
+  min-height: 500px;
+  outline: 1px white solid;
+  border-radius: 22px;
+  margin-bottom: 100px;
+  background: linear-gradient(
+    112.22deg,
+    rgba(255, 255, 255, 0.3886) 2.38%,
+    rgba(255, 158, 117, 0.1474) 52.37%,
+    rgba(255, 255, 255, 0.4489) 97.59%
+  );
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.event-card:hover {
+  transform: scale(1.1);
+}
+.event-card-interior {
+  width: 100%;
+  height: 100%;
+  border-radius: 22px;
+  background-image: url("../images/backgrounds/cover_event_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.enlace-producto {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (min-width: 1200px) {
+  #eventos h2 {
+    margin-top: 4%;
+  }
+}
+@media (min-width: 1500px) {
+  .event-card {
+    min-height: 1000px;
+  }
+}
