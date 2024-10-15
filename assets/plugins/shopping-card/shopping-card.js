@@ -61,7 +61,7 @@ window.onload = function () {
 
 ///// Specification Field
 
-
+/*
     var buttonFullSpecification = document.getElementsByClassName("block_specification")[0];
     var buttonSpecification = document.getElementsByClassName("block_specification__specificationShow")[0];
     var buttonInformation = document.getElementsByClassName("block_specification__informationShow")[0];
@@ -79,10 +79,10 @@ window.onload = function () {
 
         blockCharacteristiic.classList.toggle("block_descriptionCharacteristic__active");
     };
-
+*/
 
 /////  QUANTITY ITEMS
-
+/*
     var up = document.getElementsByClassName('block_quantity__up')[0],
         down = document.getElementsByClassName('block_quantity__down')[0],
         input = document.getElementsByClassName('block_quantity__number')[0];
@@ -102,6 +102,6 @@ window.onload = function () {
         }
 
     }
-
+*/
 
 };
