@@ -197,8 +197,9 @@ body {
   color: var(--primary--text--color);
 }
 
-.mt-10{
+.my-10{
     margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .btn-scuare{
