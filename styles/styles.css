@@ -268,7 +268,7 @@
 }
 
 #carrousel-product .carousel-item:nth-child(1) .product-title{
-    top: 10%;
+    top: 7%;
 }
 
 /*========== CELION =================================*/
@@ -606,4 +606,20 @@
     object-fit: cover;
     object-position: center;
     height: 100%;
+}
+
+
+@keyframes zoom-in {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.img-zoom-in {
+    animation: zoom-in .7s forwards;
 }
