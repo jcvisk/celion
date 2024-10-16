@@ -535,15 +535,8 @@
 #ce .delay-5 {
     animation-delay: 1.2s; 
   }
-#ce .delay-6{
-    animation-delay: 1.5s;
-  }
   
-  
-#ce .wow.animate__zoomInDown,
-  .wow.animate__zoomInLeft {
-    animation-duration: 1s; 
-  }
+
 #ce h2,h3{
     transition: transform 0.3s ease;
   }
