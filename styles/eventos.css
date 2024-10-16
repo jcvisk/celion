@@ -67,6 +67,11 @@
 }
 @media (min-width: 1500px) {
   .event-card {
-    min-height: 1000px;
+    min-height: 600px;
+  }
+}
+@media (min-width: 2500px) {
+  .event-card {
+    min-height: 800px;
   }
 }
