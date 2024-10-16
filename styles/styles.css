@@ -1,4 +1,18 @@
 
+.video-container{
+    position: relative;
+
+}
+.video-texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.h1 {
+    font-size: clamp(2rem, 6vw, 12rem) !important;
+}
 /*========== LONGRVIDADE =================================*/
 #longevidad .container-fluid {
     padding-left: 7% !important;
@@ -340,6 +354,33 @@
     align-items: center;
     justify-content: center;
 }
+.video-rounded {
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative; /* Para que el botón se posicione respecto al video */
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    
+  
+    pointer-events: none;
+    
+}
+
+.play-button img{
+    width: 50%;
+}
+
+.video-container {
+    position: relative; 
+}
+
+
 
 /*========== EXPERTOS =================================*/
 #expertos{
