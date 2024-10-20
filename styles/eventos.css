@@ -40,6 +40,11 @@
   padding: 10px;
   transition: all 0.3s ease-in-out;
 }
+.efect-card{
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+}
+.efect-card:hover,
 .event-card:hover {
   transform: scale(1.1);
 }
@@ -51,6 +56,13 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.enlace-producto1 {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
 .enlace-producto {
   position: absolute;
   top: 10px;
@@ -62,8 +74,8 @@
   margin-bottom: 50px;
 }
 .principal-event-card.event-card .event-card-interior{
-  background-image: url(../images/backgrounds/principal_event.png);
-  background-size: cover;
+  /*background-image: url(../images/backgrounds/principal_event.png);
+  background-size: cover;*/
 }
 @media (min-width: 1200px) {
   .principal-event-card.event-card {
