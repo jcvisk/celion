@@ -42,10 +42,10 @@
         align-items: start;
     }
 
-    .carousel-control-prev,
+    /*.carousel-control-prev,
     .carousel-control-next {
         display: none;
-    }
+    }*/
 
     /*.marquee-container {
         bottom: 43%;

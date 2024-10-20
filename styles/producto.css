@@ -17,8 +17,11 @@
 .imggrande {
     width: 40%;
 }
-.karlatexto span,p,li{
+.karlatexto span,p,li, strong{
     font-family: "Karla-Regular";  
+}
+.karlatexto strong{
+  font-family: "Karla-ExtraBold";
 }
 .karla-italic span{
     font-family: 'Karla-Italic';

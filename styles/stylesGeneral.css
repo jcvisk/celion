@@ -34,6 +34,11 @@
   font-family: "Karla-Italic";
   src: url(../assets/fonts/karla/static/Karla-Italic.ttf);
 }
+@font-face {
+  font-family: "Karla-ExtraBold";
+  src: url(../assets/fonts/karla/static/Karla-ExtraBold.ttf);
+}
+
 
 :root {
   --primary--color: #ff5704;
@@ -269,11 +274,11 @@ body {
 }
 
 .navbar-toggler-icon {
-  background-image: url(/images/icons/toggler-icon.svg);
+  background-image: url(../images/icons/toggler-icon.svg);
 }
 
 .nav-glass .navbar-toggler-icon {
-  background-image: url(/images/icons/toggler-icon-white.svg);
+  background-image: url(../images/icons/toggler-icon-white.svg);
 }
 
 .botoncirculo {
@@ -292,7 +297,7 @@ body {
 }
 
 .bg-image {
-  background-image: url(/images/backgrounds/background-min.png);
+  background-image: url(../images/backgrounds/background-min.png);
   background-size: cover;
   background-position: center;
   height: 600px;

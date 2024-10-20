@@ -8,17 +8,14 @@
   );
 } */
 .borde1 {
-  outline: 1px white solid;
+  outline: 1px rgb(0, 0, 0) solid;
 }
 .borde2 {
   outline: 1px rgb(255, 252, 61) solid;
 }
-.background2-page {
-  background-image: var(--background2-page);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .background2-page h2 {
+  color: var(--primary--color);
   font-family: "Montserrat-Bold";
   font-weight: 800;
   margin-top: 10%;
@@ -60,7 +57,18 @@
   right: 10px;
 }
 
+.principal-event-card.event-card {
+  min-height: 600px;
+  margin-bottom: 50px;
+}
+.principal-event-card.event-card .event-card-interior{
+  background-image: url(../images/backgrounds/principal_event.png);
+  background-size: cover;
+}
 @media (min-width: 1200px) {
+  .principal-event-card.event-card {
+    min-height: 600px;
+  }
   #eventos h2 {
     margin-top: 4%;
   }
@@ -71,6 +79,9 @@
   }
 }
 @media (min-width: 2500px) {
+  .principal-event-card.event-card {
+    min-height: 1000px;
+  }
   .event-card {
     min-height: 800px;
   }

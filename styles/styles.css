@@ -274,7 +274,7 @@
 }
 
 #carrousel-product .carousel-item{
-    background-image: url(/images/backgrounds/bg-gray.png);
+    background-image: url(../images/backgrounds/bg-gray.png);
     background-position-y: bottom;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -287,7 +287,7 @@
 
 /*========== CELION =================================*/
 #celion-brand{
-    background-image: url(/images/backgrounds/bg-gray.png);
+    background-image: url(../images/backgrounds/bg-gray.png);
     border-radius: 75px;
 }
 
@@ -321,6 +321,9 @@
 
 #comprar .card{
     border-radius: 30px;
+}
+#comprar .card-text {
+    color: #545454;
 }
 
 /*========== MEJOR =================================*/
@@ -384,7 +387,7 @@
 
 /*========== EXPERTOS =================================*/
 #expertos{
-    background-image: url(/images/backgrounds/backgroundpanel.png);
+    background-image: url(../images/backgrounds/backgroundpanel.png);
     background-size: cover;
 }
 
@@ -478,6 +481,12 @@
 }
 .tarjeta5{
     background: linear-gradient(254.84deg, #73AD28 2.28%, #F8C83C 96.89%);
+}
+#valores .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the slide takes the full height */
 }
 
 /*==========  GARANTIA =================================*/
@@ -582,11 +591,11 @@
 
 /*==========  AHORRA =================================*/
 #ahorra {
-    background-image: url(/images/backgrounds/ahorraback-min.png);
+    background-image: url(../images/backgrounds/ahorraback-min.png);
 }
 
 #gana {
-    background-image: url(/images/backgrounds/ganaback-min.png);
+    background-image: url(../images/backgrounds/ganaback-min.png);
 }
 
 #ahorra,
