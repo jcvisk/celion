@@ -41,7 +41,7 @@
 
 }
 .hb{
-    font-size: clamp(4rem, 7vw, 12rem);
+    font-size: clamp(2.6rem, 7vw, 12rem);
     font-weight: bold;
 }
 

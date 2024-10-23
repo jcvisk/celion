@@ -77,6 +77,17 @@
   /*background-image: url(../images/backgrounds/principal_event.png);
   background-size: cover;*/
 }
+@media (min-width: 768px) {
+  .enlace-producto1 {
+    right: 5%;
+  }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .enlace-producto1 {
+      right: 5%;
+    }
+}
 @media (min-width: 1200px) {
   .principal-event-card.event-card {
     min-height: 600px;
@@ -89,6 +100,9 @@
   .event-card {
     min-height: 600px;
   }
+  .enlace-producto1 {
+    right: 5%;
+  }
 }
 @media (min-width: 2500px) {
   .principal-event-card.event-card {
@@ -97,4 +111,9 @@
   .event-card {
     min-height: 800px;
   }
+  .glass-btn {
+    display: none;
+  }
 }
+/* ---- */
+
